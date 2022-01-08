@@ -1,13 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
-body {
-    font-family: 'Play', sans-serif;
+:root{
+    --theme-color:black;
+    --links: white;
+    --primary-color:#124f88;
+    --secundary-color:#f7c331;
+    --text-color-inverse: white;
+    --text-color: white;
+    --navbar-shadow-color:#e5e5e5;
+    --menu-mobile-background-color: #3a4460;
+
 }
 
-#header {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../IMG/pexels-dick-hoskins-5188293.jpg);
-    height: 800px;
-    width: 100%;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+body {
+    font-family: 'Jura', sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
 }
+
+a{
+    text-decoration: none;
+    color: var(--links);
+}   
+
