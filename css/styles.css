@@ -1,16 +1,13 @@
-:root{
-    --theme-color:black;
-    --links: white;
-    --primary-color:#124f88;
-    --secundary-color:#f7c331;
+:root {
+    --theme-color: white;
+    --links: black;
+    --primary-color: #124f88;
+    --secundary-color: #f7c331;
     --text-color-inverse: white;
-    --text-color: white;
-    --navbar-shadow-color:#e5e5e5;
+    --text-color: black;
+    --navbar-shadow-color: black;
     --menu-mobile-background-color: #3a4460;
-
 }
-
-
 
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
 body {
@@ -19,8 +16,7 @@ body {
     color: var(--text-color);
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--links);
-}   
-
+}

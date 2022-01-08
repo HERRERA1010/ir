@@ -1,42 +1,100 @@
-.header{
+    .header {
+        box-shadow: 0 4px 5px var(--navbar-shadow-color);
+        position: fixed;
+        background-color: var(--theme-color);
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
     
-}
-
-.topNav{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    box-shadow: 0 4px 5px var(--navbar-shadow-color #e5e5e5);
-}
-/*LOGO*/
-.logo{
- display: flex;
- align-items: center;
- font-size: 18px;
- font-weight: 500;
- color: var(--text-color);   
-}
-
-.logo img {
-    border-radius: 50%;
-}
-/*FINAL LOGO*/
-
-/*INICIO MENU*/
-.menu{
-    display: flex;
-    list-style: none;
-    margin:0;
-}
-
-.menu li {
-    padding: 0 15px;
-}
-
-.menu a {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 50px;
-}
-
-/*FINAL MENU */
+    .topNav {
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto;
+    }
+    /*LOGO*/
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--text-color);
+    }
+    
+    .logo img {
+        border-radius: 50%;
+    }
+    
+    .logoType {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    /*FINAL LOGO*/
+    /*INICIO MENU*/
+    
+    .menu {
+        display: flex;
+        list-style: none;
+        margin: 0;
+    }
+    
+    .menu li {
+        padding: 0 15px;
+    }
+    
+    .menu a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 50px;
+    }
+    
+    .open-menu,
+    .close-menu {
+        display: none;
+    }
+    /*FINAL MENU */
+    /*  MEDIA QUERYS*/
+    /*INICIO MENU*/
+    
+    @media (max-width: 950px) {
+        /* Menu */
+        .menu {
+            flex-direction: column;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            align-items: center;
+            background-color: var(--menu-mobile-background-color);
+            height: 100%;
+            overflow-y: auto;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+        .menu li {
+            padding: 0;
+        }
+        .menu a {
+            color: var(--text-color-inverse);
+            line-height: 60px;
+        }
+        .open-menu,
+        .close-menu {
+            display: block;
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+        .close-menu {
+            align-self: flex-end;
+            padding: 20px 15px;
+        }
+        .menu_opened {
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
