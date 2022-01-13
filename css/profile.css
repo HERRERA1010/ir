@@ -1,3 +1,81 @@
 .imgProfile {
- width: 80%;   
+    width: 80%;
+    max-width: 250px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profileInfo {
+    margin-bottom: 15px;
+}
+
+.profileTitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--brand-title);
+}
+
+.profileDetails {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+.profileButton {
+    background-color: var(--primary-color);
+    color: var(--text-color-inverse);
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.profileButton:hover {
+    filter: brightness(130%);
+}
+
+@media (min-width: 950px) {
+    .imgProfile {
+        width: 100%;
+        max-width: 350px;
+    }
+    .profile {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto;
+    }
+    .profileInfo {
+        margin-bottom: 0px;
+    }
+    .profileTitle {
+        font-size: 35px;
+        font-weight: bold;
+        margin: 0;
+        color: var(--brand-title);
+    }
+    .profileDetails {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.3;
+        max-width: 450px;
+        margin: 20px auto;
+    }
+    .profileButton {
+        background-color: var(--primary-color);
+        color: var(--text-color-inverse);
+        font-size: 20px;
+        padding: 0.5em 1em;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    .profileButton:hover {
+        filter: brightness(130%);
+    }
 }

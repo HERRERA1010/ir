@@ -1,13 +1,15 @@
 :root {
-    --theme-color: white;
+    --theme-color: #000;
     --links: black;
     --primary-color: #124f88;
     --secundary-color: #f7c331;
     --text-color-inverse: white;
-    --text-color: black;
+    --text-color: white;
     --navbar-shadow-color: black;
     --menu-mobile-background-color: #3a4460;
+    --brand-title: gold;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Jura:wght@500&display=swap');
 body {
     font-family: 'Belleza', sans-serif;
