@@ -1,10 +1,10 @@
 :root {
-    --theme-color: #000;
+    --theme-color: white;
     --links: black;
     --primary-color: #124f88;
     --secundary-color: #f7c331;
     --text-color-inverse: white;
-    --text-color: white;
+    --text-color: #000;
     --navbar-shadow-color: black;
     --menu-mobile-background-color: #3a4460;
     --brand-title: gold;
@@ -18,6 +18,16 @@ body {
     padding-top: 70px;
 }
 
+.horizontal-padding{
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.vertical-padding{
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
 a {
     text-decoration: none;
     color: var(--links);
@@ -25,4 +35,18 @@ a {
 
 ul {
     padding: 0;
+}
+
+@media (min-widht: 950px){
+
+.horizontal-padding{
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+    
+    .vertical-padding{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    }
+    
 }
