@@ -1,0 +1,45 @@
+.experiencias{
+    display: flex;
+    flex-direction: column;
+}
+
+.experienciasBody{
+    background-color: var(--wave-color);
+}
+
+.experienciaTitulo{
+    text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 25px;
+}
+
+.wave{
+    width: 100%;
+    position: relative;
+    top: 2px;
+}
+
+.waveBottom{
+    transform: scaleY(-1);
+    top: -2px;
+}
+
+.experienceDescription{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.experienciaDate{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--secundary-color);
+}
+
+.experiencia{
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+}

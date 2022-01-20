@@ -7,7 +7,8 @@
     --text-color: #000;
     --navbar-shadow-color: black;
     --menu-mobile-background-color: #3a4460;
-    --brand-title: gold;
+    --brand-title: #ffeb3b;
+    --wave-color: #f3f4f5;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Jura:wght@500&display=swap');
