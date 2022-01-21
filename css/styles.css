@@ -7,7 +7,7 @@
     --text-color: #000;
     --navbar-shadow-color: black;
     --menu-mobile-background-color: #3a4460;
-    --brand-title: #ffeb3b;
+    --brand-title: #e4d340;
     --wave-color: #f3f4f5;
 }
 
@@ -19,14 +19,14 @@ body {
     padding-top: 70px;
 }
 
-.horizontal-padding{
-padding-left: 25px;
-padding-right: 25px;
+.horizontal-padding {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-.vertical-padding{
-padding-top: 25px;
-padding-bottom: 25px;
+.vertical-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 a {
@@ -38,16 +38,13 @@ ul {
     padding: 0;
 }
 
-@media (min-widht: 950px){
-
-.horizontal-padding{
-    padding-left: 25px;
-    padding-right: 25px;
+@media (min-widht: 950px) {
+    .horizontal-padding {
+        padding-left: 25px;
+        padding-right: 25px;
     }
-    
-    .vertical-padding{
-    padding-top: 70px;
-    padding-bottom: 70px;
+    .vertical-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
-    
 }
