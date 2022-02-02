@@ -93,4 +93,8 @@
         top: -20px;
         left: -9px;
     }
+    .line::after {
+        top: 100%;
+        z-index: 1;
+    }
 }
