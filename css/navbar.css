@@ -58,8 +58,13 @@
         font-weight: 500;
         line-height: 50px;
         position: relative;
+        transition: all 300ms;
     }
-    
+
+    .menu a:hover {
+        font-size: 19px;
+
+    }    
     .menu a::after {
         content: "";
         background-color: var(--secundary-color);
@@ -104,11 +109,14 @@
             padding: 0;
         }
         .menu a {
-            color: var(--text-color-inverse);
+            color: var(--links);
             line-height: 70px;
             font-weight: 500;
             font-size: 25px;
         }
+
+
+
         .open-menu,
         .close-menu {
             display: block;
@@ -118,7 +126,8 @@
         }
         .close-menu {
             align-self: flex-end;
-            padding: 10px 15px;
+            padding: 14px 15px;
+            
         }
         .menu_opened {
             opacity: 1;
@@ -130,5 +139,9 @@
         .menu a:hover,
         .menu a.selected {
             color: var(--secundary-color);
+        }
+
+        #icono-x {
+
         }
     }

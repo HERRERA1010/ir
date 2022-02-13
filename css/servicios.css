@@ -17,6 +17,7 @@
     border-radius: 42px;
     padding: 0.5em 0.7em;
     margin: 10px;
+    color: var(--text-color-inverse);
 }
 
 .listaServicios {

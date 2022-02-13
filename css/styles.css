@@ -1,15 +1,15 @@
 :root {
-    --navbar-color: #424874;
+    --navbar-color: #005691;
     --theme-color: #fff;
     --links: #fff;
     --primary-color: #124f88;
     --secundary-color: #fff;
-    --text-color-inverse: white;
-    --text-color: #000;
+    --text-color-inverse: #000;
+    --text-color: #fff;
     --navbar-shadow-color: black;
-    --menu-mobile-background-color: #424874;
+    --menu-mobile-background-color: #005691;
     --brand-title: #000;
-    --wave-color: #A6B1E1;
+    --wave-color: #005691;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Jura:wght@500&display=swap');
