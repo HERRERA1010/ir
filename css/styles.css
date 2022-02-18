@@ -20,7 +20,9 @@ body {
     padding-top: 70px;
 }
 
-
+.facebook-f{
+    color: #000;
+}
 /*Whatsapp button*/
 
 .containerBoton {
@@ -42,7 +44,7 @@ body {
 }
 
 .botonW {
-    width: 30px;
+    width: 29px;
     transition: ease 1s;
 }
 
@@ -80,7 +82,7 @@ body {
 }
 
 .botonT {
-    width: 30px;
+    width: 29px;
     transition: ease 1s;
 }
 
