@@ -20,9 +20,7 @@ body {
     padding-top: 70px;
 }
 
-.facebook-f{
-    color: #000;
-}
+
 /*Whatsapp button*/
 
 .containerBoton {
@@ -69,8 +67,8 @@ body {
     position: fixed;
     z-index: 999;
     border-radius: 50%;
-    bottom: 85px;
-    right: 15px;
+    bottom: 15px;
+    right: 84px;
     padding: 10px;
     transition: ease 0.3s;
     animation: efect 1.2s infinite;
