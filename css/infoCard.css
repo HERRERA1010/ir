@@ -1,0 +1,40 @@
+.other-styles{
+    margin-top: 10%;
+    color: #000;
+    max-width: 980px;
+    background-color: red;
+    margin: auto;
+}
+
+
+
+
+.grid{
+
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   justify-self: center;
+
+
+
+   
+   
+}
+
+
+.img-card{
+    width: 50%;
+    border-radius: 10% / 50%;
+    box-shadow: 0 5px 25px var(--navbar-shadow-color);
+
+}
+
+.horizontal-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.vertical-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
