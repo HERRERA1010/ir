@@ -3,14 +3,14 @@
     color: #000;
     max-width: 980px;
     margin: auto;
-    border: 1px #b4b4b4;
+    border: 1px solid #c2c2c2;
+    padding: 50px;
       
 }
 
 .grid{
    display: grid;
    grid-template-columns: repeat(1, 1fr);
-   
    grid-template-rows: minmax(100px, auto);   
    justify-items: center;
    
@@ -20,10 +20,19 @@
 
 .img-card{
     display: flex;
-    margin: auto;
+    margin:0;
+   max-width: 600px;
+    width: 100%;
+    
+    box-shadow: 0 5px 1 var(--navbar-shadow-color);
+
+}
+
+.grid-titulo-secction{
+    margin-top: 3%;
+   
     width: 50%;
-    border-radius: 10% / 50%;
-    box-shadow: 0 5px 25px var(--navbar-shadow-color);
+    justify-items:center; 
 
 }
 
