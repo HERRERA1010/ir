@@ -1,0 +1,19 @@
+
+.grid-buttons{
+    background-color: aqua;
+    color: #000;
+}
+
+
+
+.grid-buttons-item{
+    width: 20%;
+    height: 150px;
+    background-color: var(--links);
+    color: #000;
+    border-radius: 10%;
+}
+
+.grid-buttons-item a{
+    color: #000;
+}
