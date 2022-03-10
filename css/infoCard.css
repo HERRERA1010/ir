@@ -1,7 +1,25 @@
+.tittle-terrenos{
+  background-color: var(--navbar-color);
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  text-align: center;
+  border-bottom: 1px solid #e4e4e4;
+  font-family:'Times New Roman', Times, serif;
+  padding: 50px;
+
+}
+
+.grid-button button{
+  background-color: var(--navbar-color);
+  height: 40px;
+  width: 70%;
+}
+
 .division{
-  height: 20px;
-  width: 100%;
-  border-top: 1px solid #000;
+  height: 1px;
+  width: 80%;
+  border-top: 2px solid #e4e4e4;
+  margin: auto;
 }
 
 
@@ -54,6 +72,10 @@
     max-width: 100%;
     
     
+  }
+
+  .tittle-terrenos{
+    font-size: 2rem;
   }
 
 }
