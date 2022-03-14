@@ -11,8 +11,10 @@
 
 .grid-button button{
   background-color: var(--navbar-color);
-  height: 40px;
-  width: 70%;
+  height: 45px;
+  width: 20%;
+  font-size: large;
+  border-radius: 4%;  
 }
 
 .division{
@@ -65,6 +67,15 @@
 }
 
 
+@media (max-width: 770px) {
+  .grid-button button{
+    background-color: var(--navbar-color);
+    height: 40px;
+    width: 30%;
+  
+}
+}
+
 
 @media (max-width: 425px) {
   
@@ -77,5 +88,13 @@
   .tittle-terrenos{
     font-size: 2rem;
   }
+
+
+.grid-button button{
+  background-color: var(--navbar-color);
+  height: 40px;
+  width: 50%;
+  
+}
 
 }

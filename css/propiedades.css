@@ -1,5 +1,8 @@
 
 .grid-buttons{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
     background-color: aqua;
     color: #000;
 }
@@ -7,11 +10,16 @@
 
 
 .grid-buttons-item{
-    width: 20%;
+    margin-top: 20px;
+    width: 50%;
     height: 150px;
     background-color: var(--links);
     color: #000;
-    border-radius: 10%;
+    border-radius: 42px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    line-height: 150px;
 }
 
 .grid-buttons-item a{
