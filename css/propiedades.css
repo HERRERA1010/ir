@@ -1,5 +1,6 @@
 
 .grid-buttons{
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
@@ -7,11 +8,16 @@
     color: #000;
 }
 
+.grid-buttons :hover{
+   background-color: rgb(240, 244, 248);
+   
+   height: 149px;
+}
 
 
 .grid-buttons-item{
     margin-top: 20px;
-    width: 50%;
+    width: 30%;
     height: 150px;
     background-color: var(--links);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
@@ -36,3 +42,26 @@ border-radius: 42px;
 padding: 0.5em 0.7em;
 margin: 10px;
 color: var(--text-color-inverse);
+
+*/
+
+@media (max-width:425px ){
+
+    .grid-buttons-item{
+        margin-top: 20px;
+        width: 60%;
+     
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width:320px ){
+
+    .grid-buttons-item{
+        margin-top: 20px;
+        width: 80%;
+     
+        font-size: 25px;
+    }
+}
