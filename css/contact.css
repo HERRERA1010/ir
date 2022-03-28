@@ -7,7 +7,7 @@
 
 .form{
     background-color: var(--primary-color);
-    margin: 12% auto;
+    margin: 7% auto;
     width: 90%;
     max-width: 400px;
     border-radius: 1em;
@@ -52,4 +52,13 @@
     border-radius:  .2em;
     cursor: pointer;
 
+}
+
+.contacto-item {
+    background-color: teal;
+}
+
+.contenido-texto-contacto{
+    color: #000;
+    text-align: center;
 }
