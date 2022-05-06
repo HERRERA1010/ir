@@ -39,3 +39,10 @@
         margin: 20px;
     }
 }
+
+@media (min-width: 313px) {
+    .tituloServicios {
+        font-size: 40px;
+    }
+    
+}
