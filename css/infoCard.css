@@ -9,6 +9,7 @@
 
 }
 
+
 .grid-button button{
   background-color: var(--navbar-color);
   height: 45px;
@@ -64,6 +65,11 @@
    max-width: 500px;
    align-self: center;
    justify-self: center;
+}
+
+.grid-descript-secction p {
+   
+    line-height: 25px;
 }
 
 
